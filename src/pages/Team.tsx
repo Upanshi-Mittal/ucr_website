@@ -371,19 +371,7 @@ const Team = () => {
      
     // Creative Team
     
-      {
-      id: 26,
-      name: "Anshika Aggarwal",
-      role: "Creative Head",
-      category: "creative",
-      branch: "Computer Science Engineering",
-      image: anshika,
-      bio: "Crafts engaging visuals and creative assets that represent the hub's identity and innovation.",
-      github: "https://github.com/aggarwalanshika",
-      linkedin: "http://www.linkedin.com/in/anshika-aggarwal-207120228",
-      instagram: "https://www.instagram.com/anshika.aggarwal.2804/",
-      email: "aggarwalanshika4@gmail.com"
-    }
+     
   ];
 
   const filters = [
