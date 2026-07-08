@@ -3,12 +3,11 @@ import { motion } from 'framer-motion';
 import { useNavigate } from "react-router-dom";
 import { Github, Linkedin,Instagram, Mail, Filter } from 'lucide-react';
 import ujjawal from '../assets/ujjawal.jpg';
+
 import ayush from '../assets/ayush.jpg';
-import ananya from '../assets/ananya.jpg';
 import ayush_agg from '../assets/ayush_agg.jpeg';
 import ayush_pan from '../assets/ayush_pan.jpg';
 import bhavyanshika from '../assets/bhavyanshika.jpg';
-import krishna from '../assets/krishna.jpg';
 import kushal from '../assets/kushal_1.jpg';
 import maadhvan from '../assets/maadhvan.jpg';
 import mahima from '../assets/mahima.jpg';
@@ -16,18 +15,26 @@ import manya from '../assets/manya.jpg';
 import rishabh from '../assets/rishabh.jpg';
 import shivansh from '../assets/shivansh.jpg';
 import vaibhav from '../assets/vaibhav.webp';
-import vanshika from '../assets/vanshika.jpg';
-import hema from '../assets/hema.png';
+import hema from "../assets/hema.png";
 import sanskar from '../assets/sanskar.jpg';
 import anshul from '../assets/anshul.jpg';
 import arjun from '../assets/arjun.jpg';
 import ashwin from '../assets/ashwin.jpg';
 import shivansh_kat from '../assets/shivansh_kat.jpg';
 import nandini from '../assets/nandini.jpg';
-import anshika from '../assets/anshika.jpg';
 import kanika from '../assets/kanika.jpg';
 import himanshi from '../assets/himanshi.jpg';
 import kamna from '../assets/kamna.jpg';
+import navyaa from '../assets/navyaa.jpeg'
+import rakshit from '../assets/rakshit.jpeg'
+import shivam from '../assets/shivam.jpeg'
+import vedansh from '../assets/vedansh.jpg'
+import upanshi from '../assets/Upanshi.jpeg'
+import aadya from '../assets/aadya.jpg'
+import vanshika from '../assets/vanshika.jpeg'
+import amisha from '../assets/amisha.jpeg'
+import unknown from '../assets/unknown.avif'
+//import jahnahvi from '../assets/jahnavi.HEIC'
 const Team = () => {
   const [filter, setFilter] = useState('all');
   const navigate = useNavigate();
@@ -48,147 +55,54 @@ const Team = () => {
   const seniorAdvisors = [
    {
       id: 1,
-      name: "Ujjawal Garg",
+      name: "Arjun Gupta",
       role: "Senior Advisor",
       category: "advisor",
-      branch: "Integrated Computer Science Engineering",
-      image: ujjawal, 
-      bio: "Fosters innovation and student growth through thoughtful mentorship, applied robotics, and collaborative learning.",
-      github:"https://github.com/ujjawalgarg7",
-      linkedin: "www.linkedin.com/in/ujjawalgarg0712",
-      instagram: "https://www.instagram.com/ujjawal.garg7",
-      email: "ujjawalgarg7@gmail.com"
+      branch: "Computer Science Engineering",
+      image: arjun, 
+      bio: "Excels in organizing, streamlining operations, and ensuring smooth execution with sharp strategy and leadership.",
+      github: "https://github.com/arjun-1703",
+      linkedin: "https://www.linkedin.com/in/arjun-gupta-74b726286",
+      instagram: "https://www.instagram.com/arjunn._.04/",
+      email: "arjgupta05@gmail.com"
     },
       {
       id: 2,
-      name: "Ayush Dubey",
+      name: "Bhavyanshika Gupta",
       role: "Senior Advisor",
       category: "advisor",
-      branch: "Electronics & Communication Engineering",
-      image: ayush, 
-      bio: "Inspires with patience, curiosity, and a genuine love for building and teaching.",
-      github: "https://github.com/ayushdubey85",       //change
-      linkedin: "http://www.linkedin.com/in/ayush-dubey-122a75271",
-      instagram: "https://www.instagram.com/ayushdubey85",
-      email: "ayushdubeyjal63@gmail.com"
+      branch: "Computer Science Engineering",
+      image: bhavyanshika, 
+      bio: "Leads innovation with expertise, creativity, and passion, driving cutting-edge solutions and technical excellence.",
+      github: "https://github.com/BhavyanshikaGupta",       //change
+      linkedin: "https://www.linkedin.com/in/bhavyanshika-gupta-8888bb284",
+      instagram: "https://www.instagram.com/_bhavyanshikagupta_9453/",
+      email: "bhavyanshikagupta@gmail.com"
     },
     {
       id: 3,
-      name: "Ashwin S Deshpande",
+      name: "Ayush Agrawal",
       role: "Senior Advisor",
       category: "advisor",
-      branch: "Electronics & Communication Engineering",
-     image: ashwin, 
-      bio: "Passionate advisor who brings ideas to life through robotics and real-world experience.",
-      github: "https://www.github.com/r1ashwin",       //change
-      linkedin: "https://www.linkedin.com/in/r1ashwin ",
-      instagram: "https://www.instagram.com/r1ashwin",
-      email: "r1ashwindeshpande@gmail.com "
-    },
-       {
-      id: 4,
-      name: "Ayush Pandey",
-      role: "Senior Advisor",
-      category: "advisor",
-      branch: "Information Technology Engineering",
-      image: ayush_pan, 
-      bio: "A steady guiding presence, always encouraging curiosity, creativity, and collaboration in the team.",
-      //github: "https://github.com",       //change
-      linkedin: "https://www.linkedin.com/in/ayush-pandey-b86659291",
-      instagram: "https://www.instagram.com/ayush_10.2",
-      email: "ayush.pandeyy10.2@gmail.com "
+      branch: "Computer Science Engineering",
+      image: ayush_agg, 
+      bio: "Leads with innovation, technical expertise, and a passion for building efficient, future-ready solutions.",
+      github: "https://github.com/agrawalayush29",
+      linkedin: "http://www.linkedin.com/in/ayush-agrawal-1825582a0",
+      instagram: "https://www.instagram.com/ayushagrawal1839/",
+      email: "ayush.2601agrawal@gmail.com"
     },
   ];
 
   const teamMembers = [
-    // Leadership Team
-    {
-      id: 6,
-      name: "Anshul Singh",
-      role: "President",
-      category: "leadership",
-      branch: "Computer Science Engineering",
-      image: anshul,
-      bio: "Leading with vision, patience, and unity to empower teams and inspire innovation.",
-      github: "https://github.com/yodamynameis",
-      linkedin: "http://www.linkedin.com/in/anshulsingh27",
-      instagram: "https://www.instagram.com/unshul.singh/",
-      email: "singhanshul2102@gmail.com"
-    },
-      {
-      id: 7,
-      name: "Shivansh Katiyar",
-      role: "Vice President",
-      category: "leadership",
-      branch: "Electronics & Communication Engineering",
-      image: shivansh_kat,
-      bio: "Drives excellence with strategic insight, strong Technical skills, and unwavering commitment to growth.",
-      github: "https://github.com/Shivansh-Katiyar",
-      linkedin: "https://linkedin.com/in/shivanshkatiyar1245",
-      instagram: "https://www.instagram.com/katiyar_shivansh_2k05/",
-      email: "katiyarshivansh1245@gmail.com"
-    },
-    {
-      id: 8,
-      name: "Mahima Ancy Verghese",
-      role: "Secretary",
-      category: "leadership",
-      branch: "Electronics & Communication Engineering",
-      image: mahima,
-      bio: "Ensures seamless coordination, clear communication, and efficient execution with dedication and precision.",
-      github: "https://github.com/Mahima9186",
-      linkedin: "https://www.linkedin.com/in/mahima-ancy-verghese-75214b370",
-      instagram: "https://www.instagram.com/ancy.mahima",
-      email: "mahima.ancy@gmail.com"
-    },
-    // {
-    //   id: 8,
-    //   name: "Krishna Gupta",
-    //   role: "Secretary",
-    //   category: "leadership",
-    //   branch: "Computer Science Engineering",
-    //   image: krishna,       
-    //   bio: "Ensures seamless coordination, clear communication, and efficient execution with dedication and precision.",
-    //   github: "https://github.com/krishnagupta03",
-    //   linkedin: "http://linkedin.com/in/krishna-gupta-031411303",
-    //   instagram: "https://www.instagram.com/krishna.x18",
-    //   email: "krishna30.k30@gmail.com"
-    // },
-       {
-      id: 15,
-      name: "Kamna Thakur",
-      role: "128 Head",
-      category: "leadership",
-      branch: "Computer Science Engineering",
-      image: kamna,
-      bio: "Mechanical design expert with focus on robotic kinematics and dynamics.",
-      github: "https://github.com/Kamna22",
-      linkedin: "https://www.linkedin.com/in/kamna-thakur-6037462a1/",
-      instagram: "https://www.instagram.com/kamnaaa_22",
-      email: "thakurkamna22@gmail.com"
-    },
-      // Finance Team
-    {
-      id: 9,
-      name: "Sanskar Phougat",
-      role: "Treasurer",
-      category: "finance",
-      branch: "Electronics & Communication Engineering",
-      image:sanskar,
-      bio: "Manages finances with integrity, transparency, and precision, ensuring smooth operations and sustainable growth.",
-      github: "https://github.com/sanskar-bot",
-      linkedin: "https://www.linkedin.com/in/sanskar-phougat",
-      instagram: "https://www.instagram.com/sanskar__phougat/",
-      email: "sanskarphougat2004@gmail.com"
-    },
      // Technical Team
     {
       id: 10,
-      name: "Bhavyanshika Gupta",
+      name: "Navyaa Jain",
       role: "Technical Head",
       category: "tech",
-      branch: "Computer Science Engineering",
-      image: bhavyanshika,
+      branch: "Electronics & Communication Engineering",
+      image: navyaa,
       bio: "Leads innovation with expertise, creativity, and passion, driving cutting-edge solutions and technical excellence.",
       github: "https://github.com/BhavyanshikaGupta",
       linkedin: "https://www.linkedin.com/in/bhavyanshika-gupta-8888bb284",
@@ -197,37 +111,24 @@ const Team = () => {
     },
      {
       id: 11,
-      name: "Rishabh Kapur",
+      name: "Shivam Diwakar",
       role: "Technical Head",
       category: "tech",
       branch: "Computer Science Engineering",
-      image: rishabh,
+      image: shivam,
       bio: "Innovates and engineers RC planes with precision, vision, and impact-driven design.",
       github: "https://github.com/Kapurrrishabh",
       linkedin: "https://www.linkedin.com/in/rishabh-kapur/",
       instagram: "https://www.instagram.com/rishabh.kapur/",
       email: "kapur.rishabh13102003@gmail.com"
     },
-    //   {
-    //   id: 12,
-    //   name: "Annanya Priyadarshini",
-    //   role: "Technical Head",
-    //   category: "tech",
-    //   branch: "Electronics & Communication Engineering",
-    //   image: ananya,
-    //   bio: "Drives innovation with sharp technical skills, creative vision, and a passion for impactful solutions.",
-    //   github: "https://github.com/Annanya-pS",
-    //   linkedin: "http://www.linkedin.com/in/annanya-priyadarshini-sahoo-4663972a1",
-    //   instagram: "https://www.instagram.com/annanya_ps?igsh=ZzVub2E0cGdseHph",
-    //   email: "annanyapsahoo2020@gmail.com"
-    // },
       {
       id: 13,
-      name: "Maanya Gupta",
+      name: "Vedansh Goel",
       role: "Technical Head",
       category: "tech",
       branch: "Computer Science Engineering",
-      image: manya,
+      image: vedansh,
       bio: "Blends innovation and dedication to lead impactful tech initiatives with clarity, creativity, and precision.",
       github: "https://github.com/maanya14",
       linkedin: "http://www.linkedin.com/in/maanya14",
@@ -236,25 +137,25 @@ const Team = () => {
     },
      {
       id: 14,
-      name: "Ayush Agrawal",
+      name: "Upanshi Mittal",
       role: "Technical Head",
       category: "tech",
       branch: "Computer Science Engineering",
-      image: ayush_agg,
+      image: upanshi,
       bio: "Leads with innovation, technical expertise, and a passion for building efficient, future-ready solutions.",
-      github: "https://github.com/agrawalayush29",
-      linkedin: "http://www.linkedin.com/in/ayush-agrawal-1825582a0",
-      instagram: "https://www.instagram.com/ayushagrawal1839/",
-      email: "ayush.2601agrawal@gmail.com"
+      github: "https://github.com/Upanshi-Mittal",
+      linkedin: "https://www.linkedin.com/in/upanshi-mittal-498213320/",
+      instagram: "https://www.instagram.com/shi.in_stxllar/",
+      email: "upanshimittal7@gmail.com"
     },
     // Management Team
     {
       id: 16,
-      name: "Shivansh Agarwal",
+      name: "Jahnavi Singh",
       role: "Management Head",
       category: "management",
       branch: "Computer Science Engineering",
-     image: shivansh,
+     image: unknown,
       bio: "Supervises robotics initiatives, drives embedded systems excellence, and ensures smooth hub operations.",
       github: "https://github.com/Shivansh3127",
       linkedin: "https://www.linkedin.com/in/shivansh-agarwal-b79b802a6",
@@ -263,51 +164,25 @@ const Team = () => {
     },
         {
       id: 17,
-      name: "Arjun Gupta",
+      name: "Priyanshu Singh",
       role: "Management Head",
       category: "management",
       branch: "Computer Science Engineering",
-      image:arjun,
+      image: unknown,
       bio: "Excels in organizing, streamlining operations, and ensuring smooth execution with sharp strategy and leadership.",
       github: "https://github.com/arjun-1703",
       linkedin: "https://www.linkedin.com/in/arjun-gupta-74b726286",
       instagram: "https://www.instagram.com/arjunn._.04/",
       email: "arjgupta05@gmail.com"
     },
-        {
-      id: 18,
-      name: "Madhavan Verma",
-      role: "Management Head",
-      category: "management",
-      branch: "Electronics & Communication Engineering",
-      image:maadhvan,
-      bio: "Guides technical direction, team collaboration, and project flow in robotics and microcontrollers hub.",
-      github: "https://github.com/madhav-mvk",
-      linkedin: "https://www.linkedin.com/in/madhavan-verma-70a71036b",
-      instagram: "https://www.instagram.com/madhav_mvk/",
-      email: "vermamadhav761@gmail.com"
-    },
-        {
-      id: 19,
-      name: "Vanshika Aggarwal",
-      role: "Management Head",
-      category: "management",
-      branch: "Electronics & Communication Engineering",
-      image: vanshika,
-      bio: "Leads innovation and strategy in microcontrollers and robotics, ensuring efficient hub management and growth.",
-      github: "https://github.com/vanshika7605",
-      linkedin: "https://www.linkedin.com/in/vanshika-aggarwal-b25399355/",
-      instagram: "https://www.instagram.com/vanshika_7605/",
-      email: "aggarwalvanshika54@gmail.com"
-    },
        // Digital Team
     {
       id: 20,
-      name: "Himanshi Sharma",
+      name: "Aadya Mudgal",
       role: "Digital Head",
       category: "digital",
       branch: "Computer Science Engineering",
-      image:himanshi,
+      image:unknown,
       bio: "Leads digital strategy, manages online presence, and promotes robotics innovations through engaging content.",
       github: "https://github.com/Himanshi-S09",
       linkedin: "https://www.linkedin.com/in/himanshisharma09",
@@ -316,11 +191,11 @@ const Team = () => {
     },
       {
       id: 21,
-      name: "Nandini Verma",
+      name: "Vanshika Gupta",
       role: "Cinematography Head",
       category: "cinematography",
       branch: "Electronics & Communication Engineering",
-      image: nandini,
+      image: vanshika,
       bio: "Drives creative direction in video, photography, and digital outreach for robotics hub activities.",
       github: "https://github.com/ic7400",
       linkedin: "http://www.linkedin.com/in/nandini-verma26712431",
@@ -331,11 +206,11 @@ const Team = () => {
     // Marketing Team
     {
       id: 22,
-      name: "Kanika Gupta",
+      name: "Shreyansh Rajat",
       role: "Marketing Head",
       category: "marketing",
       branch: "Computer Science Engineering",
-      image: kanika,
+      image: unknown,
       bio: "Leads strategic marketing to promote robotics innovation, technical workshops, and student engagement initiatives",
       github: "https://github.com/kaniikagupta",
       linkedin: "http://linkedin.com/in/kanika-gupta-276a13368",
@@ -344,41 +219,36 @@ const Team = () => {
     },
         {
       id: 23,
-      name: "Kushal Makkar",
+      name: "Rakshit Goyal",
       role: "Marketing Head",
       category: "marketing",
       branch: "Electronics & Communication Engineering",
-     image: kushal,
+     image: rakshit,
       bio: "Directs all marketing efforts, enhancing public engagement with robotics events and technological achievements.",
       github: "https://github.com/kushal06-makkar",
       linkedin: "http://www.linkedin.com/in/kushal-makkar-ba3340342",
       instagram: "https://www.instagram.com/kushal_m_06/",
       email: "makkarkushal06@gmail.com"
     },
+    // Creative Team
        {
       id: 24,
-      name: "Vaibhav Suryavanshi",
-      role: "Marketing Head",
-      category: "marketing",
+      name: "Amisha Mittal",
+      role: "Creative Head",
+      category: "creative",
       branch: "Computer Science Engineering",
-     image:vaibhav,
-      bio: "Manages promotions, builds strategic collaborations, and expands reach for the robotics hub.",
-      github: "/teams",
-      linkedin: "/teams",
-      instagram: "/teams",
-      email:"/teams" 
+     image: amisha,
+      bio: "Directs all marketing efforts, enhancing public engagement with robotics events and technological achievements.",
+      github: "https://github.com/kushal06-makkar",
+      linkedin: "http://www.linkedin.com/in/kushal-makkar-ba3340342",
+      instagram: "https://www.instagram.com/kushal_m_06/",
+      email: "makkarkushal06@gmail.com"
     },
-     
-    // Creative Team
-    
-     
   ];
-
+  console.log(hema);
   const filters = [
     { id: 'all', name: 'All Members', count: teamMembers.length },
-    { id: 'leadership', name: 'Leadership', count: teamMembers.filter(m => m.category === 'leadership').length },
     { id: 'tech', name: 'Technical', count: teamMembers.filter(m => m.category === 'tech').length },
-    { id: 'finance', name: 'Finance', count: teamMembers.filter(m => m.category === 'finance').length },
     { id: 'management', name: 'Management', count: teamMembers.filter(m => m.category === 'management').length },
     { id: 'marketing', name: 'Marketing', count: teamMembers.filter(m => m.category === 'marketing').length },
     { id: 'digital', name: 'Digital', count: teamMembers.filter(m => m.category === 'digital').length },
@@ -403,9 +273,7 @@ type Member = {
   category:
     | 'faculty'
     | 'advisor'
-    | 'leadership'
     | 'tech'
-    | 'finance'
     | 'management'
     | 'marketing'
     | 'digital'

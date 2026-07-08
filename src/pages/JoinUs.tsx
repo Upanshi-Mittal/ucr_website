@@ -43,17 +43,11 @@ const [formData, setFormData] = useState<FormDataType>({
 
   // MODIFIED: Define recruitment period in IST (UTC+5:30)
   //put time in ist format
-  const RECRUITMENT_START = new Date('2025-07-15T10:00:00+05:30'); // Start date in IST
-  const RECRUITMENT_END = new Date('2025-09-11T23:59:59+05:30');   // End date in IST
+  const RECRUITMENT_START = new Date('2026-07-01T10:00:00+05:30'); // Start date in IST
+  const RECRUITMENT_END = new Date('2026-09-08T23:59:59+05:30');   // End date in IST
 
   // MODIFIED: Helper function to get current time in IST
-  const getCurrentISTTime = () => {
-    const now = new Date();
-    // Convert to IST by adding 5 hours and 30 minutes to UTC
-    const istOffset = 5.5 * 60 * 60 * 1000; // 5.5 hours in milliseconds
-    const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
-    return new Date(utc + istOffset);
-  };
+  const getCurrentISTTime = () => new Date();
 
   // MODIFIED: Format date for IST display
   const formatDateIST = (date: Date) => {
