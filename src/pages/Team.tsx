@@ -2,35 +2,16 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate } from "react-router-dom";
 import { Github, Linkedin,Instagram, Mail, Filter } from 'lucide-react';
-import ujjawal from '../assets/ujjawal.jpg';
 
-import ayush from '../assets/ayush.jpg';
 import ayush_agg from '../assets/ayush_agg.jpeg';
-import ayush_pan from '../assets/ayush_pan.jpg';
 import bhavyanshika from '../assets/bhavyanshika.jpg';
-import kushal from '../assets/kushal_1.jpg';
-import maadhvan from '../assets/maadhvan.jpg';
-import mahima from '../assets/mahima.jpg';
-import manya from '../assets/manya.jpg';
-import rishabh from '../assets/rishabh.jpg';
-import shivansh from '../assets/shivansh.jpg';
-import vaibhav from '../assets/vaibhav.webp';
 import hema from "../assets/hema.png";
-import sanskar from '../assets/sanskar.jpg';
-import anshul from '../assets/anshul.jpg';
 import arjun from '../assets/arjun.jpg';
-import ashwin from '../assets/ashwin.jpg';
-import shivansh_kat from '../assets/shivansh_kat.jpg';
-import nandini from '../assets/nandini.jpg';
-import kanika from '../assets/kanika.jpg';
-import himanshi from '../assets/himanshi.jpg';
-import kamna from '../assets/kamna.jpg';
 import navyaa from '../assets/navyaa.jpeg'
 import rakshit from '../assets/rakshit.jpeg'
 import shivam from '../assets/shivam.jpeg'
 import vedansh from '../assets/vedansh.jpg'
 import upanshi from '../assets/Upanshi.jpeg'
-import aadya from '../assets/aadya.jpg'
 import vanshika from '../assets/vanshika.jpeg'
 import amisha from '../assets/amisha.jpeg'
 import unknown from '../assets/unknown.avif'
